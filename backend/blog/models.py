@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 class Category(models.Model):
     # создание колонок в таблице 
     name = models.CharField(max_length=20) # создание STR поля с ограничением символов
-    desciption = models.TextField(blank=True) # создание STR поля для большого количества текста
+    description = models.TextField(blank=True) # создание STR поля для большого количества текста
 
     # магический метод STR для получения строки из объекта
     def __str__(self):
