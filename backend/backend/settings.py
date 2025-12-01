@@ -41,7 +41,12 @@ INSTALLED_APPS = [
     'shop',
     'library',
     'rest_framework',
+    'rest_framework.authtoken',
 ]
+
+REST_FRAMEWORK = {
+    
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
